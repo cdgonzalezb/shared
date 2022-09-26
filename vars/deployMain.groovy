@@ -2,7 +2,7 @@
 import com.idemia.jenkins.commons.Stages
 
 def call() {
-    node ("any"){
+    node ("prueba"){
         try {
             def stages = new Stages(this)
             def projectFullPath = env.JOB_NAME
