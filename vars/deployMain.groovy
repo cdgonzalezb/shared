@@ -2,7 +2,7 @@
 import com.idemia.jenkins.commons.Stages
 
 def call() {
-    node ("ubuntu18-jce-dockercli-node10"){
+    node ("any"){
         try {
             def stages = new Stages(this)
             def projectFullPath = env.JOB_NAME
