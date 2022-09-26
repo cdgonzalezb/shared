@@ -4,7 +4,7 @@
       "name": "cl-id-srcei-manager-tx",
       "technology": "Java",
       "repository": "https://r11-sfdh-scm-001.mphr11.morpho.com/bitbucket/scm/cl-id-epp_eid/cl-id-srcei-manager-tx.git",
-      "node": "any",
+      "node": "prueba",
       "stgUnitTests": "false",
       "stgSQualityGate": false,
       "fromPath": "./target/.",
